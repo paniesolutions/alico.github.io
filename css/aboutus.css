@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+a{ text-decoration: none;}
+
+a:hover{text-decoration: none;}
+
+li{list-style: none;}
+
+p{
+    font-size: 2rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+
+}
+.navbar:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.4;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100% );
+}
+.nav-item a{
+    color: white!important;
+    font-weight: bold;
+}
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: blue;
+    background-size: cover;
+}
+.img-wrap{
+    margin-left: 30%;
+    width: auto;
+}
+.img-wrap img{
+    width: 100%;
+    padding: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #999999;
+}
+.row{
+    margin-top: 15%;
+}
+
+#aboutus h1{
+    margin-bottom: 25px;
+}
+p{
+    height: auto;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+    margin-top: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+//************************footer start here***********************//
+.footersection p{
+    color: #fff;
+    font-size: 1rem;
+  }
+  .footersection li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+  
+  }
+  .footersection{
+    width: 100%;
+    height: auto;
+    padding: -70px 0 20px 0;
+    background: #00abff;
+    position: relative;
+  }
+  .footersection h3{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 1.2rem!important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  }
+  #myBtn{
+    //display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #ffffff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #myBtn:hover{
+    background: #606060;
+  }
+    <!-- footer end here -->
+  
+  
+  
+  @media(max-width: 768px){
+    text-align: center!important;
+  }
+  .contactus{
+    height: auto;
+    margin-top: 50 px;
+  }
+//************************footer end here***********************//
